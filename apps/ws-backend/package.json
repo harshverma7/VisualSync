@@ -10,12 +10,14 @@
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.8",
     "jsonwebtoken": "^9.0.2",
+    "prisma": "^6.3.0",
     "ws": "^8.18.0"
   },
   "devDependencies": {
+    "@repo/backend-common": "workspace:*",
+    "@repo/db": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@types/express": "^5.0.0",
-    "@repo/backend-common": "workspace:*"
+    "@types/express": "^5.0.0"
   },
   "keywords": [],
   "author": "",

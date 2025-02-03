@@ -1,4 +1,4 @@
-import { z, ZodNativeEnum } from "zod";
+import { z } from "zod";
 
 export const CreateUserSchema = z.object({
   username: z.string(),
